@@ -16,7 +16,7 @@
 
 ## cerate the topic :
 * bin/windows/kafka-topics.bat --create --topic topic_name --bootstrap-server localhost:9092
-## WRITE SOME EVENTS INTO THE TOPIC (produce)
+## write some events into topic (produce)
 * bin/windows/kafka-console-producer.bat --topic topic_name --bootstrap-server localhost:9092
 ## read some events (comsumer)
 * bin/windows/kafka-console-consumer.bat --topic topic_name --from-beginning --bootstrap-server localhost:9092
